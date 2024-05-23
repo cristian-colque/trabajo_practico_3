@@ -1,0 +1,56 @@
+/* Estilos para el encabezado */
+#encabezado {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* Estilos para el menú de navegación */
+.nav-menu {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+/* Estilos para los enlaces del menú de navegación */
+.nav-menu a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Estilos para el contenido principal */
+.contenido-principal {
+    padding: 20px;
+}
+
+/* Estilos para las secciones */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los títulos de sección */
+.section h2, .section h3 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Estilos para el contenido dentro de las secciones */
+.section p, .section ul, .section ol, .section table {
+    color: #666;
+}
+
+/* Estilos para el pie de página */
+#pie-de-pagina {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para los enlaces dentro del pie de página */
+.enlace-footer {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}

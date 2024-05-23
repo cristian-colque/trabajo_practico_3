@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro de Cliente</title>
+    <link rel="stylesheet" href="../static/css/styles.css"> <!-- Enlazar el archivo CSS -->
+</head>
+<body>
+    <header id="encabezado">
+        <h1>Formulario de Registro de Cliente</h1>
+    </header>
+
+    <form action="#" method="post" class="contenido-principal">
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni" required><br>
+
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" required><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required><br>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+
+        <label>Género:</label><br>
+        <input type="radio" id="generoFemenino" name="genero" value="femenino">
+        <label for="generoFemenino">Femenino</label><br>
+        <input type="radio" id="generoMasculino" name="genero" value="masculino">
+        <label for="generoMasculino">Masculino</label><br>
+        <input type="radio" id="generoX" name="genero" value="x">
+        <label for="generoX">X</label><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br>
+
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" name="domicilio" required><br>
+
+       <label for="provincia">Provincia:</label>
+					<select id="provincia" name="provincia" required>
+					    <option value="Buenos Aires">Buenos Aires</option>
+					    <option value="Catamarca">Catamarca</option>
+					    <option value="Chaco">Chaco</option>
+					    <option value="Chubut">Chubut</option>
+					    <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+					    <option value="Córdoba">Córdoba</option>
+					    <option value="Corrientes">Corrientes</option>
+					    <option value="Entre Ríos">Entre Ríos</option>
+					    <option value="Formosa">Formosa</option>
+					    <option value="Jujuy">Jujuy</option>
+					    <option value="La Pampa">La Pampa</option>
+					    <option value="La Rioja">La Rioja</option>
+					    <option value="Mendoza">Mendoza</option>
+					    <option value="Misiones">Misiones</option>
+					    <option value="Neuquén">Neuquén</option>
+					    <option value="Río Negro">Río Negro</option>
+					    <option value="Salta">Salta</option>
+					    <option value="San Juan">San Juan</option>
+					    <option value="San Luis">San Luis</option>
+					    <option value="Santa Cruz">Santa Cruz</option>
+					    <option value="Santa Fe">Santa Fe</option>
+					    <option value="Santiago del Estero">Santiago del Estero</option>
+					    <option value="Tierra del Fuego">Tierra del Fuego</option>
+					    <option value="Tucumán">Tucumán</option>
+					</select><br>
+
+
+        <label for="telefono">Número de Teléfono Celular:</label>
+        <input type="text" id="telefono" name="telefono"><br>
+
+        <label>Categorías de Interés:</label><br>
+        <input type="checkbox" id="interesTecnologia" name="interes" value="tecnologia">
+        <label for="interesTecnologia">Tecnología</label><br>
+        <input type="checkbox" id="interesDeporte" name="interes" value="deporte">
+        <label for="interesDeporte">Deporte</label><br>
+        <input type="checkbox" id="interesViajes" name="interes" value="viajes">
+        <label for="interesViajes">Viajes</label><br>
+     
+        <label for="sugerencias">Sugerencias para la Empresa:</label><br>
+        <textarea id="sugerencias" name="sugerencias" rows="4" cols="50"></textarea><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="checkbox" id="terminos" name="terminos" required>
+        <label for="terminos">Acepto los términos y condiciones</label><br>
+
+        <input type="checkbox" id="recibirInformacion" name="recibirInformacion">
+        <label for="recibirInformacion">Acepto recibir información relativa a la empresa</label><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <footer id="pie-de-pagina">
+        <h3>Síguenos en redes sociales:</h3>
+        <a href="#" class="enlace-footer">Facebook</a> | <a href="#" class="enlace-footer">Twitter</a> | <a href="#" class="enlace-footer">Instagram</a>
+    </footer>
+</body>
+</html>
